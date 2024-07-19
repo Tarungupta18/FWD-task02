@@ -1,0 +1,487 @@
+.logoIcon {
+  height: 48px;
+  width: 62px;
+  position: relative;
+  object-fit: cover;
+}
+
+.workfall {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+
+.logoParent,
+.workfallTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.workfallTitle {
+  flex-direction: column;
+  padding: var(--padding-sm-5) 0 0;
+}
+
+.logoParent {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-tomato-200);
+  font-family: var(--font-karla);
+}
+
+.dashboard {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 82px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-xs) 0;
+}
+
+.associates {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 82px;
+}
+
+.tabs1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-xs) 0;
+}
+
+.workOffers {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 93px;
+  white-space: nowrap;
+}
+
+.tabs2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-xs) 0;
+}
+
+.workstreams {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 103px;
+}
+
+.tabs3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-xs) 0;
+}
+
+.earnings {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 68px;
+}
+
+.tabs4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-xs) 0;
+}
+
+.reviews {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 59px;
+}
+
+.tabs5 {
+  width: 69px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-xs) 0;
+  box-sizing: border-box;
+}
+
+.clients {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 55px;
+}
+
+.tabs6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-xs) 0;
+}
+
+.calls {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 42px;
+}
+
+.tabs7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-xs) 0;
+}
+
+.chats {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 45px;
+}
+
+.tabs8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xs) var(--padding-xs) 0;
+}
+
+.bellBackground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 100%;
+  right: -100%;
+  bottom: -100%;
+  left: 100%;
+  border-radius: var(--br-46xl);
+  background-color: var(--color-tomato-400);
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+
+.bellIcon {
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  width: 20px;
+  height: 21px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.bellBackgroundParent {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-8xs) 0 0;
+}
+
+.userProfileChild {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+
+.userProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+
+.john,
+.welcomeBack {
+  position: relative;
+  line-height: 150%;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.welcomeBack {
+  min-width: 83px;
+  white-space: nowrap;
+}
+
+.john {
+  margin-top: -3px;
+  min-width: 32px;
+  z-index: 1;
+}
+
+.userInfoParent,
+.userName,
+.welcomeMessage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.userName {
+  height: 18px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  color: var(--color-tomato-200);
+}
+
+.userInfoParent,
+.welcomeMessage {
+  flex-direction: column;
+}
+
+.userInfoParent {
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+
+.content,
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+
+.navigation {
+  align-self: stretch;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-gainsboro);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-xl) var(--padding-lgi);
+  gap: var(--gap-37xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray);
+  font-family: var(--font-roboto);
+}
+
+@media screen and (max-width: 1050px) {
+  .welcomeMessage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .navigation {
+    gap: var(--gap-9xl);
+  }
+}
+
+/* Additional Media Queries for Responsiveness */
+@media screen and (max-width: 600px) {
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-xl) var(--padding-md);
+  }
+
+  .tabs,
+  .tabs1,
+  .tabs2,
+  .tabs3,
+  .tabs4,
+  .tabs5,
+  .tabs6,
+  .tabs7,
+  .tabs8 {
+    padding: var(--padding-6xs) 0;
+  }
+
+  .dashboard,
+  .associates,
+  .workOffers,
+  .workstreams,
+  .earnings,
+  .reviews,
+  .clients,
+  .calls,
+  .chats {
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navigation {
+    padding: var(--padding-md) var(--padding-sm);
+  }
+
+  .logoParent {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-6xs);
+  }
+
+  .tabs,
+  .tabs1,
+  .tabs2,
+  .tabs3,
+  .tabs4,
+  .tabs5,
+  .tabs6,
+  .tabs7,
+  .tabs8 {
+    padding: var(--padding-4xs) 0;
+  }
+
+  .dashboard,
+  .associates,
+  .workOffers,
+  .workstreams,
+  .earnings,
+  .reviews,
+  .clients,
+  .calls,
+  .chats {
+    text-align: center;
+    min-width: auto;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .userInfoParent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .userProfile,
+  .userInfo {
+    padding: var(--padding-6xs) 0;
+  }
+}
+/* Existing CSS */
+/* ... */
+
+/* Additional Media Queries for Responsiveness */
+@media screen and (max-width: 1050px) {
+  .welcomeMessage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .navigation {
+    gap: var(--gap-9xl);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-xl) var(--padding-md);
+  }
+
+  .tabs,
+  .tabs1,
+  .tabs2,
+  .tabs3,
+  .tabs4,
+  .tabs5,
+  .tabs6,
+  .tabs7,
+  .tabs8 {
+    display: none;
+  }
+
+  .dashboard,
+  .associates,
+  .workOffers,
+  .workstreams,
+  .earnings,
+  .reviews,
+  .clients,
+  .calls,
+  .chats {
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navigation {
+    padding: var(--padding-md) var(--padding-sm);
+  }
+
+  .logoParent {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-6xs);
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .userInfoParent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .userProfile,
+  .userInfo {
+    padding: var(--padding-6xs) 0;
+  }
+}

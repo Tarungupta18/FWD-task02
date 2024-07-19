@@ -1,0 +1,78 @@
+.name {
+  width: 100%; /* Ensure it adapts to its container */
+  max-width: 149px; /* Maintain max-width if necessary */
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.frameChild {
+  height: 60px;
+  width: 100%; /* Make it responsive */
+  max-width: 577px; /* Maintain max-width if necessary */
+  border-radius: var(--br-8xs);
+  border: 2px solid var(--color-darkslategray-400);
+  box-sizing: border-box;
+  display: none;
+}
+
+.jasonDoe {
+  width: 100%; /* Make it responsive */
+  max-width: 76px; /* Maintain max-width if necessary */
+  border: 0;
+  outline: 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 24px;
+  line-height: 150%;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  padding: 0;
+  z-index: 3;
+}
+
+.nameParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  border: 2px solid var(--color-darkslategray-400);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xl) var(--padding-sm);
+  z-index: 2;
+}
+
+.nameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+  min-width: 375px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-roboto);
+}
+
+@media screen and (max-width: 750px) {
+  .nameParent {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .name {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,423 @@
+.arrowIcon,
+.goBack {
+  position: relative;
+  z-index: 1;
+}
+.arrowIcon {
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.goBack {
+  line-height: 150%;
+  display: inline-block;
+  min-width: 65px;
+}
+.goBackButton,
+.goBackLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.goBackLabel {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.goBackButton {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.menuItemsChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.menuItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.agencyProfile {
+  width: 130px;
+  position: relative;
+  z-index: 1;
+}
+.addBrs,
+.agencyProfile,
+.myProfile {
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+.myProfile {
+  width: 106px;
+  position: relative;
+  color: var(--color-tomato-100);
+  z-index: 1;
+}
+.addBrs {
+  width: 77px;
+}
+.addBrs,
+.iconList,
+.payments {
+  position: relative;
+  z-index: 1;
+}
+.payments {
+  flex: 1;
+  line-height: 150%;
+}
+.iconList {
+  width: 12px;
+  height: 7px;
+  object-fit: contain;
+}
+.iconListWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+}
+.menuItemLabels {
+  width: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.authorisedSignatory {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  z-index: 1;
+}
+.security {
+  width: 77px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+.general,
+.security,
+.vectorIcon {
+  position: relative;
+  z-index: 1;
+}
+.general {
+  line-height: 150%;
+  display: inline-block;
+  min-width: 60px;
+}
+.vectorIcon {
+  width: 12px;
+  height: 7px;
+  object-fit: contain;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+}
+.menuItemLabels1,
+.menuList {
+  width: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.menuList {
+  width: 183px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.profileFormChild {
+  width: 1359px;
+  height: 1055px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.upload,
+.uploadIcon {
+  position: relative;
+  z-index: 2;
+}
+.uploadIcon {
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.upload {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+  line-height: 150%;
+  font-family: var(--font-roboto);
+  color: var(--color-dodgerblue);
+  text-align: center;
+}
+.uploadButton {
+  width: 118px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.frameParent,
+.uploadButtonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.uploadButtonWrapper {
+  width: 1194px;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-44xl);
+}
+.aboutMe {
+  width: 149px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--font-roboto);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.frameChild,
+.loremIpsumDolor {
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  height: 117px;
+  width: 1210px;
+  border-radius: var(--br-8xs);
+  border: 2px solid var(--color-darkslategray-400);
+  box-sizing: border-box;
+  display: none;
+}
+.loremIpsumDolor {
+  flex: 1;
+  font-size: var(--font-size-base);
+  line-height: 150%;
+  font-family: var(--font-roboto);
+  color: var(--color-gray);
+  text-align: left;
+  display: inline-block;
+  z-index: 3;
+}
+.aboutMeParent,
+.frameGroup,
+.personalInfo,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  border-radius: var(--br-8xs);
+  border: 2px solid var(--color-darkslategray-400);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-lgi) var(--padding-lgi) var(--padding-xl)
+    var(--padding-13xl);
+  z-index: 2;
+}
+.aboutMeParent,
+.frameGroup,
+.personalInfo {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frameGroup,
+.personalInfo {
+  flex-direction: row;
+  gap: var(--gap-44xl);
+}
+.personalInfo {
+  flex-direction: column;
+  padding: 0 0 var(--padding-lgi);
+  box-sizing: border-box;
+  gap: var(--gap-18xl);
+}
+.frameItem {
+  height: 72px;
+  width: 250.5px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-tomato-200);
+  display: none;
+}
+.save {
+  height: 31.5px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.rectangleGroup,
+.saveButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-6xs) var(--padding-3xl-5);
+  background-color: var(--color-tomato-200);
+  width: 250.5px;
+  border-radius: var(--br-9xs);
+  justify-content: flex-start;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-tomato-300);
+}
+.saveButton {
+  width: 1193px;
+  justify-content: center;
+  max-width: 100%;
+}
+.profileDetails,
+.profileForm {
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.profileForm {
+  margin: 0;
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-63xl) var(--padding-54xl)
+    var(--padding-48xl);
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.profileDetails {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  min-width: 883px;
+}
+.menuOptions,
+.profileDetails,
+.sidebarContent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.menuOptions {
+  width: 1549px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-6xs);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+}
+.sidebarContent {
+  width: 1594px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-12xl);
+  text-align: left;
+  font-size: var(--font-size-mid-4);
+  color: var(--color-gray);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .frameGroup,
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .profileForm {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .profileForm {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+  .profileDetails {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameGroup,
+  .frameParent {
+    gap: var(--gap-12xl);
+  }
+  .personalInfo {
+    gap: var(--gap-lg);
+  }
+  .profileForm {
+    gap: var(--gap-6xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .sidebarContent {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: var(--gap-base);
+  }
+  .aboutMe {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .frameGroup {
+    gap: var(--gap-base);
+  }
+  .save {
+    font-size: var(--font-size-base);
+  }
+}
